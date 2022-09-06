@@ -140,7 +140,7 @@ html, body {
 
     #mapSelector img {
         margin: 0px 20px 20px 0px;
-        border: 1px solid red;
+        border: 2px solid brown;
         width: 400px;
         color: aliceblue; /* Alt text ir unreadable otherwise */
     }
