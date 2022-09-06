@@ -30,8 +30,7 @@ function setMap(chosenMap) {
             mapImage.setUrl('maps/de_dust2.svg');
             break;
         case 'de_mirage':
-            // https://readtldr.gg/simpleradar
-            mapImage.setUrl('https://i.imgur.com/expih2Z.png');
+            mapImage.setUrl('maps/de_mirage.svg');
             break;
         case 'de_cache':
             mapImage.setUrl('maps/de_cache.svg');
