@@ -15,6 +15,6 @@ For the map layouts I first used [Simple Radar](https://readtldr.gg/simpleradar)
 
 All icons were extracted from game files using [JPEXS](https://github.com/jindrapetrik/jpexs-decompiler) decompiler, I only changed the colors.
 
-So far there are only 3 maps and not that many lineups, but I'm working on adding more of both.
+So far there are only 3 maps and not that many lineups, but I'm going to add more of both.
 
 This was inspired by [Odinh.design](https://github.com/Miss-placed) who made something [similar](https://declassified.netlify.app/) for CoD: Cold War.
