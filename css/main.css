@@ -36,7 +36,6 @@ html, body {
         height: 95%;
         display: none;
         position: fixed;
-        z-index: 401; /* Anything under 401 goes under the map image overlay */
         margin-top: 20px;
         margin-left: 20px;
         color: aliceblue;

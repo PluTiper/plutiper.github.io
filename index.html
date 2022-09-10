@@ -31,29 +31,29 @@
         </div>
     </div>
 
-    <div id="overlay">
-        <div id="filter">
-            <label id="container">Smokes
-                <input type="checkbox" id="smoke" onclick="filterMarkers('smoke');" checked>
-                <span id="checkmark"></span>
-            </label>
-            <label id="container">Flashbangs
-                <input type="checkbox" id="flash" onclick="filterMarkers('flash');">
-                <span id="checkmark"></span>
-            </label>
-            <label id="container">Molotovs
-                <input type="checkbox" id="molotov" onclick="filterMarkers('molotov');">
-                <span id="checkmark"></span>
-            </label>
-            <label id="container">HE Grenades
-                <input type="checkbox" id="heGrenade" onclick="filterMarkers('heGrenade');">
-                <span id="checkmark"></span>
-            </label>
+    <div id="map">
+        <div id="overlay">
+            <div id="filter">
+                <label id="container">Smokes
+                    <input type="checkbox" id="smoke" onclick="filterMarkers('smoke');" checked>
+                    <span id="checkmark"></span>
+                </label>
+                <label id="container">Flashbangs
+                    <input type="checkbox" id="flash" onclick="filterMarkers('flash');">
+                    <span id="checkmark"></span>
+                </label>
+                <label id="container">Molotovs
+                    <input type="checkbox" id="molotov" onclick="filterMarkers('molotov');">
+                    <span id="checkmark"></span>
+                </label>
+                <label id="container">HE Grenades
+                    <input type="checkbox" id="heGrenade" onclick="filterMarkers('heGrenade');">
+                    <span id="checkmark"></span>
+                </label>
+            </div>
+            <button id="back" onclick="toggleMap();">Back</button>
         </div>
-        <button id="back" onclick="toggleMap();">Back</button>
     </div>
-
-    <div id="map"></div>
 
     <section id="expandedImage" class="hidden" onclick="hideElement();">
         <img id="image" src="#"></img>
