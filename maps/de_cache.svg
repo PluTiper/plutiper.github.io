@@ -45,9 +45,9 @@
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="122.68303"
-     inkscape:cy="444.77017"
+     inkscape:zoom="4.0000001"
+     inkscape:cx="313.62499"
+     inkscape:cy="829.74998"
      inkscape:window-x="1672"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -402,11 +402,6 @@
        height="18.981203"
        x="592.37732"
        y="262.75467" />
-    <path
-       style="fill:none;stroke:#f0f8ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 587.51233,293.19848 v 8.91222 h 8.53865 v -3.3621 h 11.68729 v -5.55012 z"
-       id="path954"
-       inkscape:connector-curvature="0" />
     <rect
        style="opacity:1;fill:none;stroke:#f0f8ff;stroke-opacity:1"
        id="rect956"
