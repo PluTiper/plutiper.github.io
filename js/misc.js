@@ -1,7 +1,7 @@
 function toggleMap() {
-    $('#mapSelector').toggle();
+    $('.mapSelector').toggle();
     $('#map').toggle();
-    $('#overlay').toggle();
+    $('.overlay').toggle();
 }
 
 // If utility type is checked, show the marker, else hide it
@@ -15,9 +15,9 @@ function filterMarkers(utilityType) {
 
 // Hide map and overlay, and fullscreen the clicked image
 function fullscreenImage(element) {
-    document.getElementById('map').classList.toggle('hidden');
-    document.getElementById('overlay').classList.toggle('hidden');
-    document.getElementById('expandedImage').classList.toggle('hidden');
+    $('#map').toggle();
+    $('.overlay').toggle();
+    $('#expandedImage').toggle();
     // Changes src attribute to the src of clicked element
     document.getElementById('image').setAttribute('src', element.getAttribute('src'));
     document.getElementById('image').requestFullscreen(); // Makes the image fullscreen
@@ -25,9 +25,9 @@ function fullscreenImage(element) {
 
 // Show map and overlay, and exit fullscreen
 function hideElement() {
-    document.getElementById('map').classList.toggle('hidden');
-    document.getElementById('overlay').classList.toggle('hidden');
-    document.getElementById('expandedImage').classList.toggle('hidden');
+    $('#map').toggle();
+    $('.overlay').toggle();
+    $('#expandedImage').toggle();
     document.exitFullscreen();
 }
 

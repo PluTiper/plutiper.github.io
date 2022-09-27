@@ -32,7 +32,7 @@ html, body {
     }
 
 /* ======== Overlay ======== */
-    #overlay {
+    .overlay {
         height: 95%;
         display: none;
         position: fixed;
@@ -49,7 +49,7 @@ html, body {
         */
 
         /* Customize the filter container */
-        #container {
+        .container {
             display: block;
             position: relative;
             padding-left: 35px;
@@ -59,7 +59,7 @@ html, body {
         }
 
         /* Hide the browser's default checkbox */
-        #container input {
+        .container input {
             position: absolute;
             opacity: 0;
             height: 0;
@@ -67,7 +67,7 @@ html, body {
         }
 
         /* Create a custom checkbox */
-        #checkmark {
+        .checkmark {
             position: absolute;
             top: 0;
             left: 0;
@@ -77,34 +77,34 @@ html, body {
         }
 
         /* On mouse-over, change text color to brown */
-        #container:hover {
+        .container:hover {
             color: brown;
         }
 
         /* On mouse-over, add a grey background color */
-        #container:hover input ~ #checkmark {
+        .container:hover input ~ .checkmark {
             background-color: #ccc;
         }
         
         /* When the checkbox is checked, add a blue background */
-        #container input:checked ~ #checkmark {
+        .container input:checked ~ .checkmark {
             background-color: brown;
         }
 
         /* Create the checkmark/indicator (hidden when not checked) */
-        #checkmark:after {
+        .checkmark:after {
             content: "";
             position: absolute;
             display: none;
         }
 
         /* Show the checkmark when checked */
-        #container input:checked ~ #checkmark:after {
+        .container input:checked ~ .checkmark:after {
             display: block;
         }
 
         /* Style the checkmark/indicator */
-        #container #checkmark:after {
+        .container .checkmark:after {
             left: 9px;
             top: 5px;
             width: 5px;
@@ -115,7 +115,7 @@ html, body {
         }
     
     /* ==== Back button ==== */
-        #overlay #back {
+        .overlay .back {
             position: absolute;
             bottom: 0;
             font-size: 22px;
@@ -127,28 +127,56 @@ html, body {
             border-radius: 4px;
         }
 
-        #overlay #back:hover {
+        .overlay .back:hover {
             cursor: pointer;
             background-color: brown;
         }
 
 /* ======== Map selector ======== */
-    #mapSelector {
+    .mapSelector {
         margin: 20px;
     }
 
-    #mapSelector img {
+    .sameLine {
+        display: inline-block;
+    }
+
+    .mapSelector img {
         margin: 0px 20px 20px 0px;
         border: 2px solid brown;
-        width: 400px;
+        width: 340px;
         color: aliceblue; /* Alt text ir unreadable otherwise */
     }
 
-    #mapSelector img:hover {
+    .mapSelector img:hover {
         cursor: pointer;
         filter: brightness(125%);
     }
 
+    .inProgress {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        color: aliceblue;
+        font-size: 22px;
+    }
+
+    .inProgress img {
+        filter: grayscale(1);
+    }
+
+    .mapSelector .inProgress img:hover {
+        cursor: default;
+        filter: grayscale(1);
+    }
+
+    .inProgressText {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
 /* ======== Popup content ======== */
     .grid-container {
         width: 800px;
